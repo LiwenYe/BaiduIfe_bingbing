@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>任务一：表单（一）单个表单项的检验</title>
+    <link href="task1.css" rel="stylesheet" type="text/css">
+    <script src="task1.js"></script>
+</head>
+<body>
+    <form onsubmit="return validate_form()">
+        <table>
+            <tr>
+                <td><label>名称</label></td>
+                <td><input type="text" name="name"></td>
+                <td><input type="submit" value="验证"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><span id="remind">必填，长度为4~16个字符</span></td>
+            </tr>
+        </table>
+    </form>
+
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+form label{
+    font-size: 25px;
+}
+form input{
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+form input[type="text"]{
+    height: 60px;
+    width: 530px;
+    outline: none;
+    border: 2px solid #acaaaa;
+    margin: 0 20px 0 50px;
+}
+form input[type="submit"]{
+    height: 64px;
+    width: 110px;
+    background: blue;
+    color: white;
+    font-size: 25px;
+    border: 0;
+}
+
+table span{
+    margin-left: 50px;
+    font-size: 20px;
+    color: #acaaaa;
+}
